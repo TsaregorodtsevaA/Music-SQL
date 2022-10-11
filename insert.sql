@@ -28,6 +28,8 @@ insert into singer(name)
 values('Kanye West');
 insert into singer(name)
 values('Queen');
+insert into singer(name)
+values ('Billie Eilish');
 
 insert into albom (name, year)
 values('Talk That Talk', '2011');
@@ -49,6 +51,10 @@ insert into albom (name, year)
 values('Reputation', '2017');
 insert into albom (name, year)
 values('Ye', '2018');
+insert into albom(name, year)
+values ('When We All Fall Asleep, Where Do We Go?', 2019);
+insert into albom(name, year)
+values('Lover', 2019);
 
 insert into track (name, duration, albomid)
 values('We All Want Love', '3:57', '1');
@@ -110,6 +116,21 @@ insert into track (name, duration, albomid)
 values('Yikes', '3:08', '10');
 insert into track (name, duration, albomid)
 values('I Thought About Killing You', '4:34', '10');
+insert into track(name, duration, albomid)
+values
+('I Forgot That You Existed', '2:51', 12),
+('Cruel Summer', '2:58', 12),
+('Lover', '3:41', 12),
+('The Man', '3:10', 12),
+('The Archer', '3:31', 12);
+insert into track(name, duration, albomid)
+values
+('Bad Guy', '3:14', 11),
+('Xanny', '4:03', 11),
+('You Should See Me in a Crown', '3:00', 11),
+('All the Good Girls Go to Hell', '2:48', 11),
+('Wish You Were Gay', '3:41', 11),
+('When the Party’s Over', '3:16', 11);
 
 
 insert into collection (name, year)
@@ -158,6 +179,8 @@ insert into singergenre
 values(8, 2);
 insert into singergenre
 values(9, 1);
+insert into singergenre
+values(10, 1);
 
 insert into singeralbom 
 values(1, 1);
@@ -179,6 +202,10 @@ insert into singeralbom
 values(9, 9);
 insert into singeralbom 
 values(7, 10);
+insert into singeralbom
+values(10, 11);
+insert into singeralbom
+values(9, 12);
 
 insert into trackcollection  
 values(1, 1);
